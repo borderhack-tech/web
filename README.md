@@ -46,7 +46,7 @@ That's it.
 PORT=8080 npm run dev
 ```
 
-Open up http://localhost:8080/borderhack-tech to see your app.
+Open up http://localhost:8080/webpack-dev-server/ to see your app.
 The app gets reloaded as files change.
 
 ## Deployment Workflow
