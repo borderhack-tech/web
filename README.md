@@ -32,7 +32,13 @@ nodejs
 npm install
 ```
 
-## Development
+## Development & Testing
+
+**Start nginx docker container:**
+
+```sh
+sudo ./docker-build-and-run.sh
+```
 
 **Start the live-reload dev server:**
 
