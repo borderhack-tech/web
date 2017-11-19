@@ -15,11 +15,10 @@ src/
     index.html
 ```
 
----
 
 ## Installation
 
-**1. Install dependencies:**
+**Install prerequisites:**
 
 ```sh
 docker
@@ -27,18 +26,13 @@ npm
 nodejs
 ```
 
-Troubleshooting node / nodejs build issues: https://github.com/nodejs/node-v0.x-archive/issues/3911
-* Create symlink for nodejs to node `ln -s /usr/bin/nodejs /usr/bin/node`
-
-**2. Install dependencies:**
+**Install build dependencies:**
 
 ```sh
 npm install
 ```
 
-That's it.
-
-## Development Workflow
+## Development
 
 **Start the live-reload dev server:**
 
@@ -48,6 +42,12 @@ PORT=8080 npm run dev
 
 Open up http://localhost:8080/webpack-dev-server/ to see your app.
 The app gets reloaded as files change.
+
+
+**Troubleshooting node / nodejs build issues:**
+
+https://github.com/nodejs/node-v0.x-archive/issues/3911
+* Create symlink for nodejs to node `ln -s /usr/bin/nodejs /usr/bin/node`
 
 ## Deployment Workflow
 

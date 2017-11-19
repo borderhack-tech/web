@@ -75,7 +75,7 @@ module.exports = {
 	// `webpack-dev-server` spawns a live-reloading HTTP server for your project.
 	devServer: {
 		port: process.env.PORT || 8080,
-		contentBase: './src',
+		contentBase: './',
 		historyApiFallback: true
 	}
 };
